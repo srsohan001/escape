@@ -1,0 +1,178 @@
+/*common start*/
+body{
+	margin: 0;
+	padding: 0;
+	font-family: Brandon_reg ;
+	font-weight: 400;
+	font-size: 16px;
+	color: #ffff;
+
+}
+.container{
+	width: 80%;
+	margin: 0 auto;
+	overflow: hidden;
+
+}
+
+.c_h2 {
+	margin: 0;
+	padding: 0px 0 53px;
+	font-size: 60px;
+	font-weight: 300;
+	color: #222222;
+	font-family: Brandon_light;
+	letter-spacing: 1px;
+	
+}
+
+
+.c_h2 span {
+	font-weight: 900;
+	font-family: Brandon_bld;
+	letter-spacing: 1px;
+}
+
+.c_p {
+	margin: 0;
+	font-size: 18px;
+	color: #777777;
+
+}
+
+.c_s {
+	font-size: 20px;
+	color: #7690c5;
+}
+/*common end*/
+/*fonts*/
+@font-face{
+	src: url(../font/brandon-grotesque/Brandon_bld.otf);
+	font-family: Brandon_bld ;
+
+}
+font-face{
+	src: url(../font/brandon-grotesque/Brandon_light.otf);
+	font-family: Brandon_light ;
+}
+font-face{
+	src: url(../font/brandon-grotesque/Brandon_med.otf);
+
+	font-family: Brandon_med ;
+}
+@font-face{
+	src: url(../font/brandon-grotesque/Brandon_reg.otf);
+	font-family: Brandon_reg ;
+}
+@font-face{
+	src: url(../font/cubano/Cubano-Regular.otf);
+	font-family: Cubano-Regular ;
+}
+
+/*fonts*/
+/*h_banner start*/
+header{
+	background-image: url(../img/m-banner.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	min-height: 600px;
+}
+.h_banner{
+	padding: 40px 0;
+}
+
+.logo {
+	width: 15%;
+	float: left;
+	/*border: 1px solid white;*/
+	padding: 14px;
+}
+.text{
+	width: 75%;
+	float: right;
+}
+.text img{
+	width: 100%;
+}
+
+.l-icon{
+	/*border: 1px solid red;*/
+	width: 24%;
+	float: left;
+
+}
+.l-icon span i{
+	font-size: 30px;
+	color: #fff;
+}
+
+
+.menu{
+	width:82%;
+	float: right;
+	/*border: 1px solid white;*/
+	margin-bottom: 50px: 
+}
+.menu ul {
+	float: right;
+}
+.menu ul li {
+	list-style: none;
+	float: left;
+}
+.menu ul li a {
+	margin: 0 35px;
+	padding: 3px;
+	display: inline-block;
+	color: #ffff;
+	text-decoration: none;
+	text-transform: uppercase;
+	border-bottom: 1px solid transparent;
+	transition: .4s;
+}
+.menu ul li:last-child a{
+	margin-right: 0;
+}
+.menu ul li a:hover{
+	color: #777777;
+}
+.b-heading {
+	text-align: center;
+	padding: 80px 0;
+}
+.b-heading h3 {
+	font-family: Brandon_light;
+	font-size: 30px;
+	font-weight: 300;
+	margin: 20px 0;
+	padding: 50px 0 0;
+}
+.c-h1 {
+	font-family: Brandon_bld;
+	font-size: 68px;
+	font-weight: 900;
+	letter-spacing: 1px;
+	margin: 0;
+	padding: 0 0 50px;
+}
+.b-heading h1{}
+.b-heading button {
+	margin-top: 30px;
+	width: 240px;
+	height: 70px;
+	border: none;
+	background: transparent;
+	border: 1px solid #ffff;
+	font-family: Brandon_bld;
+	font-size: 23px;
+	font-weight: 900;
+	color: #ffff;
+	cursor: pointer;
+}
+
+.b-heading button:hover{
+	background-color: #777777;
+}
+
+/*h_banner end*/
